@@ -1,0 +1,22 @@
+2 Classes (549 E,i 585 Sc): Majority error 0.48 2classes
+3 Classes (549 E, Sc 585, I 336): Majority error 0.77 3classes
+
+
+
+2 classes
+    SIFT vs SURF
+    #Classifiers (RF, FURIA, MLP_df, MLP_1, MLP_2, LIBSVM, SMO, LIBLINEAR)
+
+For each measure (F1, AUC)
+
+    For each dataset
+        a) overall method for each descriptor
+            - test all results for SURF
+            - test all results for SIFT
+        b) overal combination
+            - test all results combining SIFT and SURF
+
+            What I need?
+                - 1 file with results for 2 classes + SURF
+                - 1 file with results for 2 classes + SIFT
+                - 1 file with all results for N classes dataset
